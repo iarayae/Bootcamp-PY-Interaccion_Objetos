@@ -24,7 +24,7 @@ class Tienda:
         self._productos.append(nuevo)
     
     def listar_productos(self):
-        salida = f"Productos en {self.__nombre}:\n"
+        salida = f"Productos en {self._nombre}:\n"
         for p in self._productos:
             nombre = p.obtener_nombre()
             precio = p.obtener_precio()
